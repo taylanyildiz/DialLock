@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D73A524F2C323EBA0016AA4F /* DialLockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A524E2C323EBA0016AA4F /* DialLockApp.swift */; };
+		D73A52532C323EBB0016AA4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73A52522C323EBB0016AA4F /* Assets.xcassets */; };
+		D73A52562C323EBB0016AA4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73A52552C323EBB0016AA4F /* Preview Assets.xcassets */; };
+		D73A526A2C323EC90016AA4F /* CGPointExtensisons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A525C2C323EC90016AA4F /* CGPointExtensisons.swift */; };
+		D73A526B2C323EC90016AA4F /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A525D2C323EC90016AA4F /* StringExtensions.swift */; };
+		D73A526C2C323EC90016AA4F /* DialHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A52602C323EC90016AA4F /* DialHolder.swift */; };
+		D73A526D2C323EC90016AA4F /* DialNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A52612C323EC90016AA4F /* DialNumber.swift */; };
+		D73A526E2C323EC90016AA4F /* DialPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A52622C323EC90016AA4F /* DialPin.swift */; };
+		D73A526F2C323EC90016AA4F /* DialStopper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A52632C323EC90016AA4F /* DialStopper.swift */; };
+		D73A52702C323EC90016AA4F /* DialHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A52652C323EC90016AA4F /* DialHelper.swift */; };
+		D73A52712C323EC90016AA4F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A52672C323EC90016AA4F /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D73A524B2C323EBA0016AA4F /* DialLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DialLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73A524E2C323EBA0016AA4F /* DialLockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialLockApp.swift; sourceTree = "<group>"; };
+		D73A52522C323EBB0016AA4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D73A52552C323EBB0016AA4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D73A525C2C323EC90016AA4F /* CGPointExtensisons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtensisons.swift; sourceTree = "<group>"; };
+		D73A525D2C323EC90016AA4F /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		D73A52602C323EC90016AA4F /* DialHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialHolder.swift; sourceTree = "<group>"; };
+		D73A52612C323EC90016AA4F /* DialNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialNumber.swift; sourceTree = "<group>"; };
+		D73A52622C323EC90016AA4F /* DialPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialPin.swift; sourceTree = "<group>"; };
+		D73A52632C323EC90016AA4F /* DialStopper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialStopper.swift; sourceTree = "<group>"; };
+		D73A52652C323EC90016AA4F /* DialHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialHelper.swift; sourceTree = "<group>"; };
+		D73A52672C323EC90016AA4F /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D73A52482C323EBA0016AA4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D73A52422C323EBA0016AA4F = {
+			isa = PBXGroup;
+			children = (
+				D73A524D2C323EBA0016AA4F /* DialLock */,
+				D73A524C2C323EBA0016AA4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D73A524C2C323EBA0016AA4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D73A524B2C323EBA0016AA4F /* DialLock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D73A524D2C323EBA0016AA4F /* DialLock */ = {
+			isa = PBXGroup;
+			children = (
+				D73A525F2C323EC90016AA4F /* Core */,
+				D73A52692C323EC90016AA4F /* Home */,
+				D73A524E2C323EBA0016AA4F /* DialLockApp.swift */,
+				D73A52522C323EBB0016AA4F /* Assets.xcassets */,
+				D73A52542C323EBB0016AA4F /* Preview Content */,
+			);
+			path = DialLock;
+			sourceTree = "<group>";
+		};
+		D73A52542C323EBB0016AA4F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D73A52552C323EBB0016AA4F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D73A525E2C323EC90016AA4F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D73A525C2C323EC90016AA4F /* CGPointExtensisons.swift */,
+				D73A525D2C323EC90016AA4F /* StringExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D73A525F2C323EC90016AA4F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D73A525E2C323EC90016AA4F /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D73A52642C323EC90016AA4F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D73A52602C323EC90016AA4F /* DialHolder.swift */,
+				D73A52612C323EC90016AA4F /* DialNumber.swift */,
+				D73A52622C323EC90016AA4F /* DialPin.swift */,
+				D73A52632C323EC90016AA4F /* DialStopper.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D73A52662C323EC90016AA4F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D73A52652C323EC90016AA4F /* DialHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D73A52682C323EC90016AA4F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D73A52672C323EC90016AA4F /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D73A52692C323EC90016AA4F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D73A52642C323EC90016AA4F /* Components */,
+				D73A52662C323EC90016AA4F /* Helper */,
+				D73A52682C323EC90016AA4F /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D73A524A2C323EBA0016AA4F /* DialLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D73A52592C323EBB0016AA4F /* Build configuration list for PBXNativeTarget "DialLock" */;
+			buildPhases = (
+				D73A52472C323EBA0016AA4F /* Sources */,
+				D73A52482C323EBA0016AA4F /* Frameworks */,
+				D73A52492C323EBA0016AA4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DialLock;
+			productName = DialLock;
+			productReference = D73A524B2C323EBA0016AA4F /* DialLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D73A52432C323EBA0016AA4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D73A524A2C323EBA0016AA4F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = D73A52462C323EBA0016AA4F /* Build configuration list for PBXProject "DialLock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D73A52422C323EBA0016AA4F;
+			productRefGroup = D73A524C2C323EBA0016AA4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D73A524A2C323EBA0016AA4F /* DialLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D73A52492C323EBA0016AA4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73A52562C323EBB0016AA4F /* Preview Assets.xcassets in Resources */,
+				D73A52532C323EBB0016AA4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D73A52472C323EBA0016AA4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73A526C2C323EC90016AA4F /* DialHolder.swift in Sources */,
+				D73A526E2C323EC90016AA4F /* DialPin.swift in Sources */,
+				D73A526B2C323EC90016AA4F /* StringExtensions.swift in Sources */,
+				D73A52712C323EC90016AA4F /* HomeView.swift in Sources */,
+				D73A526F2C323EC90016AA4F /* DialStopper.swift in Sources */,
+				D73A526D2C323EC90016AA4F /* DialNumber.swift in Sources */,
+				D73A52702C323EC90016AA4F /* DialHelper.swift in Sources */,
+				D73A524F2C323EBA0016AA4F /* DialLockApp.swift in Sources */,
+				D73A526A2C323EC90016AA4F /* CGPointExtensisons.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D73A52572C323EBB0016AA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D73A52582C323EBB0016AA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D73A525A2C323EBB0016AA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DialLock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cutfinger.DialLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D73A525B2C323EBB0016AA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DialLock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cutfinger.DialLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D73A52462C323EBA0016AA4F /* Build configuration list for PBXProject "DialLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73A52572C323EBB0016AA4F /* Debug */,
+				D73A52582C323EBB0016AA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D73A52592C323EBB0016AA4F /* Build configuration list for PBXNativeTarget "DialLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73A525A2C323EBB0016AA4F /* Debug */,
+				D73A525B2C323EBB0016AA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D73A52432C323EBA0016AA4F /* Project object */;
+}
